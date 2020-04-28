@@ -6,9 +6,6 @@ import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-/**
- * Created by jt on 1/10/17.
- */
 @Document
 public class Product {
     @Id
