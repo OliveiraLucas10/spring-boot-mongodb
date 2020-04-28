@@ -1,10 +1,10 @@
-package guru.springframework.domain;
+package com.oliveiralucaspro.domain;
+
+import java.math.BigDecimal;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
-
-import java.math.BigDecimal;
 
 /**
  * Created by jt on 1/10/17.

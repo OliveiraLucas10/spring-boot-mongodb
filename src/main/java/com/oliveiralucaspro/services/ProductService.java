@@ -1,13 +1,10 @@
-package guru.springframework.services;
-
-import guru.springframework.commands.ProductForm;
-import guru.springframework.domain.Product;
+package com.oliveiralucaspro.services;
 
 import java.util.List;
 
-/**
- * Created by jt on 1/10/17.
- */
+import com.oliveiralucaspro.commands.ProductForm;
+import com.oliveiralucaspro.domain.Product;
+
 public interface ProductService {
 
     List<Product> listAll();

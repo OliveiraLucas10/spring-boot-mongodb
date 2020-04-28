@@ -1,11 +1,7 @@
-package guru.springframework.commands;
-
+package com.oliveiralucaspro.commands;
 
 import java.math.BigDecimal;
 
-/**
- * Created by jt on 1/10/17.
- */
 public class ProductForm {
     private String id;
     private String description;
@@ -13,34 +9,34 @@ public class ProductForm {
     private String imageUrl;
 
     public String getId() {
-        return id;
+	return id;
     }
 
     public void setId(String id) {
-        this.id = id;
+	this.id = id;
     }
 
     public String getDescription() {
-        return description;
+	return description;
     }
 
     public void setDescription(String description) {
-        this.description = description;
+	this.description = description;
     }
 
     public BigDecimal getPrice() {
-        return price;
+	return price;
     }
 
     public void setPrice(BigDecimal price) {
-        this.price = price;
+	this.price = price;
     }
 
     public String getImageUrl() {
-        return imageUrl;
+	return imageUrl;
     }
 
     public void setImageUrl(String imageUrl) {
-        this.imageUrl = imageUrl;
+	this.imageUrl = imageUrl;
     }
 }
